@@ -84,6 +84,7 @@ const TicketTable = ({ tickets,event }) => {
           // Close the modal
           setModalShow(false);
           setIsLoading(false);
+          setQuantity(Array(tickets.length).fill(0));
         },
         (error) => {
           console.error(error);
