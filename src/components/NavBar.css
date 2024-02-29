@@ -1,0 +1,20 @@
+.custom-navbar {
+  background-color: #27393F; 
+  padding-top: 50px;
+  color: #ffff;
+}
+
+.logo-image {
+  height: 40px;
+  width: 150px;
+}
+
+.custom-nav-font{
+  font-family: "Rubik", sans-serif !important;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: #ffffff !important;
+  --bs-nav-link-hover-color: #cccccc; /* Change this to your desired hover color */
+  /* Other styles... */
+}

@@ -1,0 +1,41 @@
+.breadcrumbs {
+  max-width: 100%;
+  margin: 15px 0;
+  background-color: #f8f9f9; 
+  font-family: "Rubik", sans-serif !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumbs .crumb:after {
+  content: '/';
+  margin-left: 10px;
+  color: gray; /* Set the color of the '/' character to gray */
+}
+
+.breadcrumbs .crumb:last-child:after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: black; /* Set the color of the links to black */
+  text-decoration: none;
+}
+
+.breadcrumbs .crumb:last-child a {
+  color: #EBA92A; /* Set the color of the last link to #EBA92A */
+}
+
+
+.breadcrumbs .crumb:not(:last-child) a {
+  color: gray; /* Set the color of all links except the last one to gray */
+}
+
+.breadcrumbs .crumb:not(:last-child) a:hover {
+  color: #EBA92A; 
+}

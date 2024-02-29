@@ -1,0 +1,21 @@
+.label {
+  font-family:"Rubik", sans-serif;
+  font-weight: 700;
+  color: #EBA92A;
+}
+
+.event-details{
+  font-family:"Rubik", sans-serif;
+  
+}
+
+.custom-button {
+  background-color:#EBA92A !important;
+  border-color: #EBA92A !important;
+  font-weight: 500;
+}
+
+.custom-button:hover {
+  background-color: #242424 !important; 
+    border-color: #242424 !important;
+}
